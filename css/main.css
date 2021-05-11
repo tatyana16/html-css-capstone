@@ -1,0 +1,26 @@
+.cards img{
+	height: auto;
+	width: 160px;
+}
+.bottomArea{
+  background-color: whitesmoke;
+  height: 250px;
+  color:black;
+  font-size: .80rem;
+}
+.bottomArea p{
+  font-size: .80rem;
+}
+.bottomArea h5{
+  font-weight: 800;
+  font-size: 16px;
+}
+.w-60{
+  width: 60%!important;
+}
+.h-30{
+  width: 60%!important;
+}
+.w-20{
+  width: 20%!important;
+}
