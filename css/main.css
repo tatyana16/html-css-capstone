@@ -1,21 +1,33 @@
 
-.card {
-
+.logo{
+  width: auto;
+  height: 120px;
 }
-.card-img-top{
-
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
 }
-.card-body{
-
-}
-.card-title{
-
-}
+/*Leave out for now
 .banner{
   height: 140px;
   background-image: url('../images/Wizard_Head_BIAB.jpeg');
   background-size:cover;
   background-position: center -30px;
+}
+#card {
+  border: 1px solid navy;
+  display:flex;
+  flex-direction: row;
+  justify-content:center;align-items: center;
+  flex-flow: row wrap;
+}
+
+.card-img{
+  height: auto;
+  width: 100px;}
+
+.card-title{
+
 }
 .bottomArea{
   background-color: whitesmoke;
@@ -54,3 +66,4 @@
     height: 400px;
   }
 }
+*/
