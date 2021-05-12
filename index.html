@@ -21,28 +21,33 @@
             <img src="images/hplogo.jpeg" class="logo p-3">
         </div>
 
-        <nav>
-
-            <ul id="nav-list">
-
-                <li class="nav-link">
-                    <a href="/index.html">Home</a>
-                </li>
-
-                <li class="nav-link">
-                    <a href="/products.html">Products</a>
-                </li>
-
-                <li class="nav-link">
-                    <a href="/stuff.html">Stuff</a>
-                </li>
-
-                <li class="nav-link">
-                    <a href="/contact.html">Contact</a>
-                </li>
-
-            </ul>
-        </nav>
+        <ul class="nav nav-pills justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false">Products</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Gryffindor</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Hufflepuff</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Ravenclaw</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Slytherin</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Register</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+            </li>
+        </ul>
     </header>
 
     <main>
@@ -87,6 +92,7 @@
 
         <div class="container">
             <div class="row">
+
                 <div class="col-md-6">
                     <h3>About the Movie</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere,
@@ -96,7 +102,7 @@
                         amet nec enim. Sed vel dui non magna tincidunt pellentesque. Vivamus
                         egestas pellentesque tellus, quis viverra diam vulputate nec. Praesent
                         feugiat consectetur lacus, a malesuada justo porta et. </p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+
                 </div>
                 <div class="col-md-6">
                     <h3>About the Story</h3>
@@ -107,7 +113,7 @@
                         amet nec enim. Sed vel dui non magna tincidunt pellentesque. Vivamus
                         egestas pellentesque tellus, quis viverra diam vulputate nec. Praesent
                         feugiat consectetur lacus, a malesuada justo porta et. </p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+
                 </div>
             </div>
         </div>
@@ -116,7 +122,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-sm">
+                <div class="col-sm-3">
                     <div class="card" style="width: 18rem;">
                         <img src="images/gryffindor-card.jpeg" class="card-img-top" alt="Gryffindor">
                         <div class="card-body">
@@ -127,24 +133,35 @@
                     </div>
                 </div>
 
-                <div class="col-sm">
+                <div class="col-sm-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="images/gryffindor-card.jpeg" class="card-img-top" alt="Gryffindor">
+                        <img src="images/hufflepuff-card-3.jpeg" class="card-img-top" alt="Hufflepuff">
                         <div class="card-body">
-                            <h5 class="card-title">Gryffindor</h5>
-                            <p class="card-text">Founded by Godric Gryffindor</p>
-                            <a href="#" class="btn btn-primary">Shop Gryffindor</a>
+                            <h5 class="card-title">Hufflepuff</h5>
+                            <p class="card-text">Founded by Helga Hufflepuff</p>
+                            <a href="#" class="btn btn-primary">Shop Hufflepuff</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm">
+                <div class="col-sm-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="images/gryffindor-card.jpeg" class="card-img-top" alt="Gryffindor">
+                        <img src="images/ravenclaw-card.jpeg" class="card-img-top" alt="Ravenclaw">
                         <div class="card-body">
-                            <h5 class="card-title">Gryffindor</h5>
-                            <p class="card-text">Founded by Godric Gryffindor</p>
-                            <a href="#" class="btn btn-primary">Shop Gryffindor</a>
+                            <h5 class="card-title">Ravenclaw</h5>
+                            <p class="card-text">Founded by Rowena Ravenclaw</p>
+                            <a href="#" class="btn btn-primary">Shop Ravenclaw</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/slytherin-card.jpeg" class="card-img-top" alt="Slytherin">
+                        <div class="card-body">
+                            <h5 class="card-title">Slytherin</h5>
+                            <p class="card-text">Founded by Salazar Slytherin</p>
+                            <a href="#" class="btn btn-primary">Shop Slytherin</a>
                         </div>
                     </div>
                 </div>
@@ -152,48 +169,63 @@
             </div>
         </div>
 
-        <!--Save for Product Page
-    <main>
+        <div class="container">
+            <div class="row">
 
-   
-    <div class=row>
-        
-        <div class=col-md-6>
-    
-    <div class="card" style="width: 18rem;">
-        <img src="images/gryffindor-card.jpeg" class="card-img-top" alt="Gryffindor">
-        <div class="card-body">
-          <h5 class="card-title">Gryffindor</h5>
-          <p class="card-text">Founded by Godric Gryffindor</p>
-          <a href="#" class="btn btn-primary">Shop Gryffindor</a>
+                <div class="row-sm-4">
+                    <img src="images/hogwarts.jpeg" class="img-fluid" alt="Hogwarts">
+                    <div class="row-sm-8">
+                        <h4>Hogwarts School of Witchcraft and Wizardry</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere,
+                            lacus ac aliquet gravida, turpis odio pharetra est, id suscipit risus
+                            mauris molestie magna. Phasellus mattis libero est, ac eleifend felis
+                            venenatis quis. Aliquam ac urna scelerisque augue viverra euismod sit
+                            amet nec enim. Sed vel dui non magna tincidunt pellentesque. Vivamus
+                            egestas pellentesque tellus, quis viverra diam vulputate nec. Praesent
+                            feugiat consectetur lacus, a malesuada justo porta et. </p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-    <div class="card" style="width: 18rem;" id="class">
-            <img src="images/hufflepuff-card.jpeg" class="card-img-top" alt="Hufflepuff">
-            <div class="card-body">
-              <h5 class="card-title">Hufflepuff</h5>
-              <p class="card-text">Founded by Helga Hufflepuff</p>
-              <a href="#" class="btn btn-primary">Shop Hufflepuff</a>
+        <!--Block
+        <div class="container">
+            <div class="row d-flex bottomArea">
+                <img src="images/hplogo.jpeg" class="img-fluid h-10">
+                <h5>About Us</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s </p>
+            </div>
         </div>
-
-     <div class="card" style="width: 18rem;">
-            <img src="images/ravenclaw-card.jpeg" class="card-img-top" alt="Ravenclaw">
-            <div class="card-body">
-              <h5 class="card-title">Ravenclaw</h5>
-              <p class="card-text">Founded by Rowena Ravenclaw</p>
-              <a href="#" class="btn btn-primary">Shop Hufflepuff</a>
-        </div>
-
-    <div class="card" style="width: 18rem;">
-            <img src="images/slytherin-card.jpeg" class="card-img-top" alt="Slytherin">
-            <div class="card-body">
-              <h5 class="card-title">Slytherin</h5>
-              <p class="card-text">Founded by Salazar Slytherin</p>
-              <a href="#" class="btn btn-primary">Shop Slytherin</a>
-        </div>
-    </div>
-</div>
 -->
+        <div class="container flex-direction: row">
+            <div class="row d-flex">
+                <img src="images/hplogo.jpeg" class="img-fluid h-10">
+                <h5>About Us</h5>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s
+                </p>
+            </div>
+
+            <div class="d-flex">
+                <h5>Contact Us</h5>
+                <div>123 Sesame St</div>
+                <div>123-456-7890</div>
+                <div>info@info.com</div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
         <!--Leave out for now
         <div class="d-flex">
