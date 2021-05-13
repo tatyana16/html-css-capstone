@@ -39,7 +39,7 @@
   }
 
   *{box-sizing: border-box}
-  
+
   /* Full-width input fields */
   input[type=text], input[type=password] {
     width: 100%;
@@ -121,6 +121,44 @@
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+#page2.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  padding: 2%;
+  flex-grow: 4;
+  flex-basis: 16%;
+  display: flex; 
+}
+
+.product-card {
+  flex: 1 16%;
+}
+
+.product-image img {
+  max-width:100%;
+}
+
+.product-info {
+  margin-bottom: auto;
+}
+
+@media (max-width: 920px) {
+  .product-card {
+    flex: 1 21%;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-card {
+    flex: 1 46%;
+  }
+}
+
+
 
 /*Leave out for now
 .banner{
