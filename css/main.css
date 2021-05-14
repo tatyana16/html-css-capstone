@@ -3,6 +3,19 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 1em;
 }
 
 #page1.logo {
@@ -17,27 +30,7 @@ body {
 .container{
   display: flex;
 }
-.bottomArea{
-  background-color: whitesmoke;
-  height: 250px;
-  color:black;
-  font-size: .80rem;
-}
-.bottomArea p{
-  font-size: .80rem;
-}
-.bottomArea h5{
-  font-weight: 800;
-  font-size: 16px;
-}
-.w-60{
-  width: 60%!important;
-}
-.h-30{
-  width: 60%!important;
-}
-.w-20{
-  width: 20%!important;}
+
 
   /* Register Add padding to containers */
   #page4.container {
@@ -98,8 +91,8 @@ body {
 #page3 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
+  border: 4px solid orange; /* Gray border */
+  border-radius: 2px ; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
@@ -109,7 +102,6 @@ body {
 /* Style the submit button with a specific background color etc */
 #page3 input[type=submit] {
   background-color: #04AA6D;
-  color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -117,8 +109,8 @@ body {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-#page3 input[type=submit]:hover {
-  background-color: #45a049;
+#page3.input[type=submit]:hover {
+  background-color:white;
 }
 
 /* Add a background color and some padding around the form */
@@ -170,67 +162,9 @@ body {
 }
 
 #t01 tr:nth-child(even) {
-  background-color: #dddddd;
-}
-
-
-/*Leave out for now
-.banner{
-  height: 140px;
-  background-image: url('../images/Wizard_Head_BIAB.jpeg');
-  background-size:cover;
-  background-position: center -30px;
-}
-#card {
-  border: 1px solid navy;
-  display:flex;
-  flex-direction: row;
-  justify-content:center;align-items: center;
-  flex-flow: row wrap;
-}
-
-.card-img{
-  height: auto;
-  width: 100px;}
-
-.card-title{
-
-}
-.bottomArea{
   background-color: whitesmoke;
-  height: 250px;
-  color:black;
-  font-size: .80rem;
 }
-.bottomArea p{
-  font-size: .80rem;
-}
-.bottomArea h5{
-  font-weight: 800;
-  font-size: 16px;
-}
-.w-60{
-  width: 60%!important;
-}
-.h-30{
-  width: 60%!important;
-}
-.w-20{
-  width: 20%!important;}
 
-@media (min-width: 576px) {
-  .banner{
-    height: 200px;
-  }
+#t01 tr:nth-child(odd) {
+  background-color: black;
 }
-@media (min-width: 768px) {
-  .banner{
-    height: 300px;
-  }
-}
-@media (min-width: 992px) {
-  .banner{
-    height: 400px;
-  }
-}
-*/
